@@ -1,0 +1,25 @@
+{
+  "name": "exbanking-test-framework",
+  "version": "1.0.0",
+  "main": "src/mockServer.js",
+  "scripts": {
+    "test": "jest",
+    "doc": "jsdoc -c jsdoc.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "jest-html-reporter": "^3.10.2",
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-html-reporter": "^3.10.2",
+    "jsdoc": "^4.0.3"
+  }
+}
